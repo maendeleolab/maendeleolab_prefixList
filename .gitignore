@@ -1,0 +1,7 @@
+#ignore __pycache__
+__pycache__
+
+#log file
+prefix_lists.log
+
+
