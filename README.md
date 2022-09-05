@@ -47,7 +47,7 @@ export ENV_FPATH="/home/ubuntu"
 
 ## [Dependencies](#Dependencies)
 
-- maendeleolab_subnet (The prefix list scripts need access to subnets to create prefix list for VPC subnets)
+- [maendeleolab_subnet](https://github.com/maendeleolab/maendeleolab_subnet) (The prefix list scripts need access to subnets to create prefix list for VPC subnets)
 
 ## [Walk-through](#Walk-through)
 
