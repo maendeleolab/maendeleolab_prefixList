@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import os, sys, pprint, itertools
 from build_prefix_list import create_prefix_list, get_prefix_list_id
