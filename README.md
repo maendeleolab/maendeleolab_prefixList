@@ -1,4 +1,4 @@
-# maendeleolab_subnet
+# maendeleolab_prefixList
 ![GitHub commit activity](https://img.shields.io/github/last-commit/maendeleolab/maendeleolab_prefixList)
 
 <img src="/images/banner.png" width=400>
