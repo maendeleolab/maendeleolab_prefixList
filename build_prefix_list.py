@@ -1,4 +1,4 @@
-#!/usr/bin/python3 -tt
+#!/usr/bin/env python3
 
 Goal = '''
 to create prefix-lists in aws
