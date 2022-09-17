@@ -46,8 +46,9 @@ export ENV_FPATH="/home/ubuntu"
 ```
 
 ## [Dependencies](#Dependencies)
+### The deploy script needs to access the build script/s in the following project.
 
-- [maendeleolab_subnet](https://github.com/maendeleolab/maendeleolab_subnet) (The prefix list scripts need access to subnets to create prefix list for VPC subnets)
+- [maendeleolab_subnet](https://github.com/maendeleolab/maendeleolab_subnet) 
 
 ## [Walk-through](#Walk-through)
 
