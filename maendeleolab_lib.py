@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import os, sys, pprint, itertools
-from build_prefix_list import create_prefix_list, get_prefix_list_id
+from build_prefix_list import create_prefix_list, get_prefix_list_id, get_prefix_list_entries
 from build_prefix_list import add_prefix_list, remove_prefix_list, get_prefix_list_version
 from build_prefix_list import destroy_prefix_list, erase_prefix_list
 # path to your home folder /home/username

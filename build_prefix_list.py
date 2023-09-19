@@ -77,6 +77,19 @@ def get_prefix_list_id(value, region='us-east-1'):
         logging.info(f'Logging "get_prefix_list_id" in prefix_lists.log: {err} in {region}...')
         print(f'Logging "get_prefix_list_id" in prefix_lists.log: {err} in {region}...')
 
+#gets prefix-list entries from any given prefix-list name
+def get_prefix_list_entries(value, region='us-east-1'):
+    try:
+        response = os.popen("aws ec2 get-managed-prefix-list-entries --prefix-list-id " + value + " " + ' --region '+ region).read()
+        prefix_list_data = json.loads(str(response))
+        data = prefix_list_data['Entries']
+        cidr_list = [info['Cidr'] for info in data]
+        return cidr_list
+    except Exception as err:
+        logging.info(f'Logging "get_prefix_list_entries" in prefix_lists.log: {err} in {region}...')
+        print(f'Logging "get_prefix_list_entries" in prefix_lists.log: {err} in {region}...')
+
+
 #adds prefix-list
 def add_prefix_list(**kwargs):
     try:
